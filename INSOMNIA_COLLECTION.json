@@ -1,0 +1,66 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2026-06-26T20:29:00.000Z",
+  "__export_source": "insomnia.desktop.app:v8.4.0",
+  "resources": [
+    {
+      "_id": "wrk_lunora",
+      "parentId": null,
+      "name": "LUNORA Premium E-Commerce API",
+      "description": "Enterprise API collection for LUNORA storefront and administrative operations.",
+      "environment": {
+        "base_url": "http://localhost:5000/api/v1"
+      },
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_health",
+      "parentId": "wrk_lunora",
+      "url": "http://localhost:5000/api/health",
+      "name": "API Health Monitor",
+      "method": "GET",
+      "_type": "request"
+    },
+    {
+      "_id": "req_ready",
+      "parentId": "wrk_lunora",
+      "url": "http://localhost:5000/api/ready",
+      "name": "Deep Readiness Probe",
+      "method": "GET",
+      "_type": "request"
+    },
+    {
+      "_id": "req_register",
+      "parentId": "wrk_lunora",
+      "url": "http://localhost:5000/api/v1/auth/register",
+      "name": "Customer Register",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"name\": \"Jane Doe\",\n  \"email\": \"jane@example.com\",\n  \"password\": \"Password123\"\n}"
+      },
+      "_type": "request"
+    },
+    {
+      "_id": "req_login",
+      "parentId": "wrk_lunora",
+      "url": "http://localhost:5000/api/v1/auth/login",
+      "name": "Customer Login",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"email\": \"jane@example.com\",\n  \"password\": \"Password123\"\n}"
+      },
+      "_type": "request"
+    },
+    {
+      "_id": "req_products",
+      "parentId": "wrk_lunora",
+      "url": "http://localhost:5000/api/v1/products",
+      "name": "Get Products Catalog",
+      "method": "GET",
+      "_type": "request"
+    }
+  ]
+}

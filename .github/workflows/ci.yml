@@ -1,0 +1,61 @@
+name: LUNORA CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo:6.0
+        ports:
+          - 27017:27017
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm'
+
+    - name: Install Root Dependencies
+      run: npm ci
+
+    - name: Install Backend Dependencies
+      run: npm ci --prefix server
+
+    - name: Run Backend Compilation
+      run: npm run build:backend
+
+    - name: Run Frontend Compilation
+      run: npm run build:frontend
+      env:
+        NEXT_PUBLIC_APP_URL: http://localhost:3000
+        NEXT_PUBLIC_API_URL: http://localhost:5000/api/v1
+        JWT_SECRET: test_jwt_secret_value_must_be_long_enough
+        MONGO_URI: mongodb://localhost:27017/lunora
+
+    - name: Start Backend API Server for Integration Tests
+      run: |
+        npm run start --prefix server &
+        sleep 5
+      env:
+        PORT: 5000
+        NODE_ENV: test
+        MONGO_URI: mongodb://localhost:27017/lunora
+        JWT_SECRET: test_jwt_secret_value_must_be_long_enough
+        CORS_ORIGIN: http://localhost:3000
+        EMAIL_PROVIDER: mock
+
+    - name: Run Backend Integration & Functionality Tests
+      run: node server/test_email.cjs
+      env:
+        MONGO_URI: mongodb://localhost:27017/lunora

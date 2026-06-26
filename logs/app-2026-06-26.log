@@ -1,0 +1,391 @@
+{"timestamp":"2026-06-26T11:23:32.335Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:23:32.344Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:23:32.975Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:23:32.982Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:23:36.905Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:23:37.930Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:23:38.327Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:23:38.564Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:23:38.722Z","level":"INFO","message":"LUNORA Server successfully started on port 5000 in development mode."}
+{"timestamp":"2026-06-26T11:23:40.320Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}
+{"timestamp":"2026-06-26T11:23:42.020Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:23:42.858Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:23:43.510Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:23:44.141Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:23:44.223Z","level":"ERROR","message":"SYSTEM_UNCAUGHT_EXCEPTION: Shutting down server...","metadata":{"message":"listen EADDRINUSE: address already in use :::5000","name":"Error","stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:2009:16)\n    at listenInCluster (node:net:2066:12)\n    at Server.listen (node:net:2171:7)\n    at app.listen (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\application.js:635:24)\n    at startServer (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:59:22)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:80:1)\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:633:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)","code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":5000}}
+{"timestamp":"2026-06-26T11:25:05.515Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:25:06.549Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:25:06.922Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:25:07.273Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:25:07.922Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:25:08.160Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:25:08.500Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:25:08.682Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:25:08.778Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:25:08.813Z","level":"INFO","message":"LUNORA Server successfully started on port 5000 in development mode."}
+{"timestamp":"2026-06-26T11:25:09.327Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:25:09.474Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:25:09.551Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:25:09.596Z","level":"ERROR","message":"SYSTEM_UNCAUGHT_EXCEPTION: Shutting down server...","metadata":{"message":"listen EADDRINUSE: address already in use :::5000","name":"Error","stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:2009:16)\n    at listenInCluster (node:net:2066:12)\n    at Server.listen (node:net:2171:7)\n    at app.listen (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\application.js:635:24)\n    at startServer (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:59:22)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:80:1)\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:633:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)","code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":5000}}
+{"timestamp":"2026-06-26T11:25:10.492Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}
+{"timestamp":"2026-06-26T11:25:16.258Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:25:16.654Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:25:17.733Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:25:18.051Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:25:18.184Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:25:18.715Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:25:19.427Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:25:19.563Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:25:19.659Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:25:19.671Z","level":"INFO","message":"LUNORA Server successfully started on port 5000 in development mode."}
+{"timestamp":"2026-06-26T11:25:20.032Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:25:20.246Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:25:20.329Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:25:20.355Z","level":"ERROR","message":"SYSTEM_UNCAUGHT_EXCEPTION: Shutting down server...","metadata":{"message":"listen EADDRINUSE: address already in use :::5000","name":"Error","stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:2009:16)\n    at listenInCluster (node:net:2066:12)\n    at Server.listen (node:net:2171:7)\n    at app.listen (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\application.js:635:24)\n    at startServer (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:59:22)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:80:1)\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:633:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)","code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":5000}}
+{"timestamp":"2026-06-26T11:25:20.551Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}
+{"timestamp":"2026-06-26T11:25:29.668Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:25:29.882Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T11:25:30.699Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:25:30.906Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:25:30.999Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:25:31.275Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T11:25:32.803Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:25:33.120Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:25:33.215Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T11:25:33.267Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:25:33.304Z","level":"INFO","message":"LUNORA Server successfully started on port 5000 in development mode."}
+{"timestamp":"2026-06-26T11:25:33.559Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T11:25:33.727Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:25:33.889Z","level":"ERROR","message":"SYSTEM_UNCAUGHT_EXCEPTION: Shutting down server...","metadata":{"message":"listen EADDRINUSE: address already in use :::5000","name":"Error","stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:2009:16)\n    at listenInCluster (node:net:2066:12)\n    at Server.listen (node:net:2171:7)\n    at app.listen (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\application.js:635:24)\n    at startServer (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:78:22)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:99:1)\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:633:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)","code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":5000}}
+{"timestamp":"2026-06-26T11:25:35.878Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}
+{"timestamp":"2026-06-26T11:27:35.141Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T11:27:35.516Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T11:27:36.136Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473256133_welcome.html"}
+{"timestamp":"2026-06-26T11:27:36.295Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Password Reset Request\n  Template: forgot-password\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473256292_forgot-password.html"}
+{"timestamp":"2026-06-26T11:27:36.454Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Password Updated Successfully\n  Template: password-reset-success\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473256451_password-reset-success.html"}
+{"timestamp":"2026-06-26T11:27:37.023Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782473257011_invoice_LUN-2026-99999.pdf"}
+{"timestamp":"2026-06-26T11:27:37.025Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-99999\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473257011_order-confirmation.html"}
+{"timestamp":"2026-06-26T11:27:37.490Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Order Cancellation - LUN-2026-99999\n  Template: order-cancelled\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473257487_order-cancelled.html"}
+{"timestamp":"2026-06-26T11:27:38.120Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Shipment Update - LUN-2026-99999\n  Template: shipping-update\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473258118_shipping-update.html"}
+{"timestamp":"2026-06-26T11:27:38.536Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782473258531_invoice_LUN-2026-99999.pdf"}
+{"timestamp":"2026-06-26T11:27:38.537Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Shipment Delivered - LUN-2026-99999\n  Template: delivery\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473258531_delivery.html"}
+{"timestamp":"2026-06-26T11:27:38.673Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Contact Inquiry] Partnership Inquiry\n  Template: contact\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473258671_contact.html"}
+{"timestamp":"2026-06-26T11:27:38.814Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-99999\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782473258811_admin-new-order.html"}
+{"timestamp":"2026-06-26T11:28:44.274Z","level":"INFO","message":"GET /api/health - Status: 200 (77ms) - IP: ::1 - UA: curl/8.19.0"}
+{"timestamp":"2026-06-26T11:28:44.609Z","level":"INFO","message":"GET /api/ready - Status: 200 (5ms) - IP: ::1 - UA: curl/8.19.0"}
+{"timestamp":"2026-06-26T11:28:44.721Z","level":"INFO","message":"GET /api/version - Status: 200 (3ms) - IP: ::1 - UA: curl/8.19.0"}
+{"timestamp":"2026-06-26T11:30:57.020Z","level":"INFO","message":"GET /api/v1/products?limit=100 - Status: 200 (557ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:47:19.176Z","level":"INFO","message":"GET /api/health - Status: 200 (31ms) - IP: ::1 - UA: curl/8.19.0"}
+{"timestamp":"2026-06-26T11:47:29.601Z","level":"INFO","message":"GET /api/ready - Status: 200 (5ms) - IP: ::1 - UA: curl/8.19.0"}
+{"timestamp":"2026-06-26T11:47:34.722Z","level":"INFO","message":"GET /api/version - Status: 200 (3ms) - IP: ::1 - UA: curl/8.19.0"}
+{"timestamp":"2026-06-26T11:47:57.301Z","level":"INFO","message":"Session Action: User registered successfully. Email: shopper_1782474475622@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T11:47:57.345Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1500ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:47:57.702Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782474475622@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782474477701_welcome.html"}
+{"timestamp":"2026-06-26T11:47:58.035Z","level":"INFO","message":"GET /api/v1/products?limit=2 - Status: 200 (654ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:47:58.866Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (819ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:47:59.399Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (525ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:47:59.526Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (115ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:47:59.846Z","level":"INFO","message":"PATCH /api/v1/cart/6a3e48b242d8aec2dff6c1cc - Status: 200 (304ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:00.105Z","level":"INFO","message":"DELETE /api/v1/cart/6a3de9f5519d3656fdb2196b - Status: 200 (248ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:00.223Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (113ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:00.647Z","level":"INFO","message":"POST /api/v1/wishlist - Status: 200 (411ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:00.783Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (131ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:01.747Z","level":"INFO","message":"POST /api/v1/wishlist/6a3de9f5519d3656fdb2196b/move-to-cart - Status: 200 (952ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:02.005Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (253ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:02.416Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (400ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:03.507Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (1084ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:03.761Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (250ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:03.823Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782474483818_invoice_LUN-2026-232510.pdf"}
+{"timestamp":"2026-06-26T11:48:03.824Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782474475622@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-232510\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782474483818_order-confirmation.html"}
+{"timestamp":"2026-06-26T11:48:04.027Z","level":"INFO","message":"GET /api/v1/products/id/6a3e48b242d8aec2dff6c1cc - Status: 200 (232ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:04.115Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-232510\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782474484113_admin-new-order.html"}
+{"timestamp":"2026-06-26T11:48:04.218Z","level":"INFO","message":"GET /api/v1/products/id/6a3de9f5519d3656fdb2196b - Status: 200 (111ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:04.272Z","level":"INFO","message":"GET /api/v1/orders - Status: 200 (51ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:04.387Z","level":"INFO","message":"GET /api/v1/orders/6a3e66f32f09548edcdc72d7 - Status: 200 (103ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:48:04.667Z","level":"WARN","message":"PATCH /api/v1/orders/6a3e66f32f09548edcdc72d7/cancel - Status: 500 (270ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:33.209Z","level":"INFO","message":"Session Action: User registered successfully. Email: shopper_1782474572270@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T11:49:33.216Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (764ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:33.275Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782474572270@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782474573273_welcome.html"}
+{"timestamp":"2026-06-26T11:49:33.374Z","level":"INFO","message":"GET /api/v1/products?limit=2 - Status: 200 (122ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:33.643Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (260ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:33.933Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (277ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:34.058Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (116ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:34.118Z","level":"WARN","message":"PATCH /api/v1/cart/6a3e48b242d8aec2dff6c1cc - Status: 400 (54ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:34.360Z","level":"INFO","message":"DELETE /api/v1/cart/6a3de9f5519d3656fdb2196b - Status: 200 (228ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:34.485Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (120ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:34.776Z","level":"INFO","message":"POST /api/v1/wishlist - Status: 200 (284ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:34.916Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (120ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:35.475Z","level":"INFO","message":"POST /api/v1/wishlist/6a3de9f5519d3656fdb2196b/move-to-cart - Status: 200 (552ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:35.540Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (47ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:35.659Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (112ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:36.056Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (385ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:36.161Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (100ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:36.217Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782474576213_invoice_LUN-2026-292925.pdf"}
+{"timestamp":"2026-06-26T11:49:36.220Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782474572270@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-292925\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782474576213_order-confirmation.html"}
+{"timestamp":"2026-06-26T11:49:36.288Z","level":"INFO","message":"GET /api/v1/products/id/6a3e48b242d8aec2dff6c1cc - Status: 200 (115ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:36.336Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-292925\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782474576333_admin-new-order.html"}
+{"timestamp":"2026-06-26T11:49:36.426Z","level":"INFO","message":"GET /api/v1/products/id/6a3de9f5519d3656fdb2196b - Status: 200 (126ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:36.503Z","level":"INFO","message":"GET /api/v1/orders - Status: 200 (59ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:36.608Z","level":"INFO","message":"GET /api/v1/orders/6a3e674f2f09548edcdc7328 - Status: 200 (98ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T11:49:36.915Z","level":"WARN","message":"PATCH /api/v1/orders/6a3e674f2f09548edcdc7328/cancel - Status: 500 (297ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:18:33.366Z","level":"ERROR","message":"Email Service Queue: Failed to run background processing cycle:","metadata":{"message":"write ECONNRESET","name":"Error","stack":"Error: write ECONNRESET\n    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:87:19)\n    at handleWriteReq (node:internal/stream_base_commons:52:26)\n    at writeGeneric (node:internal/stream_base_commons:148:15)\n    at Socket._writeGeneric (node:net:1026:11)\n    at Socket._write (node:net:1038:8)\n    at writeOrBuffer (node:internal/streams/writable:570:12)\n    at _write (node:internal/streams/writable:499:10)\n    at Writable.write (node:internal/streams/writable:508:10)\n    at Connection.writeCommand (C:\\Users\\rahul\\lunora\\server\\node_modules\\mongodb\\src\\cmap\\connection.ts:718:21)\n    at processTicksAndRejections (node:internal/process/task_queues:104:5)","errno":-4077,"code":"ECONNRESET","syscall":"write"}}
+{"timestamp":"2026-06-26T14:19:57.648Z","level":"WARN","message":"Database Connection: Lost/Disconnected."}
+{"timestamp":"2026-06-26T14:19:58.690Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}
+{"timestamp":"2026-06-26T14:21:18.901Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T14:21:20.319Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T14:21:20.882Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T14:21:22.473Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T14:21:25.297Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T14:21:25.973Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T14:21:26.330Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-26T14:21:26.593Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T14:21:27.145Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T14:21:27.416Z","level":"INFO","message":"LUNORA Server successfully started on port 5000 in development mode."}
+{"timestamp":"2026-06-26T14:21:28.959Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}
+{"timestamp":"2026-06-26T14:21:31.924Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-26T14:21:32.400Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-26T14:21:32.571Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T14:21:32.658Z","level":"ERROR","message":"SYSTEM_UNCAUGHT_EXCEPTION: Shutting down server...","metadata":{"message":"listen EADDRINUSE: address already in use :::5000","name":"Error","stack":"Error: listen EADDRINUSE: address already in use :::5000\n    at Server.setupListenHandle [as _listen2] (node:net:2009:16)\n    at listenInCluster (node:net:2066:12)\n    at Server.listen (node:net:2171:7)\n    at app.listen (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\application.js:635:24)\n    at startServer (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:78:22)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\index.ts:99:1)\n    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)\n    at async node:internal/modules/esm/loader:633:26\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)","code":"EADDRINUSE","errno":-4091,"syscall":"listen","address":"::","port":5000}}
+{"timestamp":"2026-06-26T14:22:13.040Z","level":"INFO","message":"Session Action: User registered successfully. Email: shopper_1782483731653@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T14:22:13.081Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1076ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:13.290Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782483731653@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483733283_welcome.html"}
+{"timestamp":"2026-06-26T14:22:13.582Z","level":"INFO","message":"GET /api/v1/products?limit=2 - Status: 200 (450ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:15.037Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (1434ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:15.919Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (370ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:16.220Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (137ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:16.956Z","level":"INFO","message":"PATCH /api/v1/cart/6a3e8afc7a47ceb5b00b46e4 - Status: 200 (311ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:17.617Z","level":"INFO","message":"DELETE /api/v1/cart/6a3e8afc7a47ceb5b00b46e2 - Status: 200 (564ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:18.269Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (582ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:19.619Z","level":"INFO","message":"POST /api/v1/wishlist - Status: 200 (1339ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:19.944Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (310ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:22.183Z","level":"INFO","message":"POST /api/v1/wishlist/6a3e8afc7a47ceb5b00b46e2/move-to-cart - Status: 200 (2228ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:22.288Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (99ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:22.883Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (587ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:23.517Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (630ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:23.849Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (318ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:23.915Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782483743907_invoice_LUN-2026-119693.pdf"}
+{"timestamp":"2026-06-26T14:22:23.918Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782483731653@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-119693\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483743907_order-confirmation.html"}
+{"timestamp":"2026-06-26T14:22:23.965Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e4 - Status: 200 (111ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:24.054Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-119693\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483744034_admin-new-order.html"}
+{"timestamp":"2026-06-26T14:22:24.128Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e2 - Status: 200 (104ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:24.194Z","level":"INFO","message":"GET /api/v1/orders - Status: 200 (51ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:24.334Z","level":"INFO","message":"GET /api/v1/orders/6a3e8b1f33f84822d01470d8 - Status: 200 (107ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:24.751Z","level":"INFO","message":"PATCH /api/v1/orders/6a3e8b1f33f84822d01470d8/cancel - Status: 200 (410ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:24.862Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e4 - Status: 200 (97ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:24.879Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782483731653@lunora.com\n  Subject: LUNORA Order Cancellation - LUN-2026-119693\n  Template: order-cancelled\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483744867_order-cancelled.html"}
+{"timestamp":"2026-06-26T14:22:24.999Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e2 - Status: 200 (99ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:39.090Z","level":"WARN","message":"POST /api/v1/auth/register - Status: 400 (7ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:39.136Z","level":"WARN","message":"POST /api/v1/auth/login - Status: 400 (5ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:22:39.160Z","level":"WARN","message":"POST /api/v1/auth/forgot-password - Status: 400 (3ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:02.557Z","level":"INFO","message":"Session Action: User registered successfully. Email: concur_user1_1782483841181@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T14:24:02.573Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1231ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:02.691Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: concur_user1_1782483841181@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483842634_welcome.html"}
+{"timestamp":"2026-06-26T14:24:04.021Z","level":"INFO","message":"Session Action: User registered successfully. Email: concur_user2_1782483841183@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T14:24:04.044Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1418ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:04.170Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: concur_user2_1782483841183@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483844157_welcome.html"}
+{"timestamp":"2026-06-26T14:24:05.854Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (1197ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:06.095Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782483846075_invoice_LUN-2026-290612.pdf"}
+{"timestamp":"2026-06-26T14:24:06.171Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: concur_user2_1782483841183@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-290612\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483846075_order-confirmation.html"}
+{"timestamp":"2026-06-26T14:24:06.337Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-290612\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483846322_admin-new-order.html"}
+{"timestamp":"2026-06-26T14:24:06.517Z","level":"WARN","message":"POST /api/v1/orders - Status: 400 (1847ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:29.172Z","level":"INFO","message":"Session Action: User registered successfully. Email: csrf_tester_1782483867215@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T14:24:29.181Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1652ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:29.497Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: csrf_tester_1782483867215@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483869494_welcome.html"}
+{"timestamp":"2026-06-26T14:24:29.647Z","level":"INFO","message":"GET /api/v1/products?limit=1 - Status: 200 (424ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:30.503Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (851ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:30.518Z","level":"WARN","message":"POST /api/v1/cart - Status: 403 (4ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:30.545Z","level":"WARN","message":"POST /api/v1/cart - Status: 403 (2ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:31.346Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (794ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:44.715Z","level":"INFO","message":"Session Action: User registered successfully. Email: shopper_payment_1782483883100@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T14:24:44.771Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1464ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:44.924Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_payment_1782483883100@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483884918_welcome.html"}
+{"timestamp":"2026-06-26T14:24:44.990Z","level":"INFO","message":"GET /api/v1/products?limit=1 - Status: 200 (162ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:46.338Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (1345ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:47.415Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (1051ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:47.846Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782483887828_invoice_LUN-2026-967669.pdf"}
+{"timestamp":"2026-06-26T14:24:47.863Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_payment_1782483883100@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-967669\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483887828_order-confirmation.html"}
+{"timestamp":"2026-06-26T14:24:48.183Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-967669\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483888175_admin-new-order.html"}
+{"timestamp":"2026-06-26T14:24:48.363Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (941ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:48.378Z","level":"INFO","message":"PAYMENT_INITIATED: Payment order creation initiated. User: 6a3e8bab33f84822d0147135, Coupon: None"}
+{"timestamp":"2026-06-26T14:24:49.275Z","level":"INFO","message":"Generated Mock Razorpay Order ID: order_mock_287320 for amount: ₹2222"}
+{"timestamp":"2026-06-26T14:24:49.280Z","level":"INFO","message":"POST /api/v1/payments/create-order - Status: 200 (904ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:49.878Z","level":"INFO","message":"PAYMENT_VERIFIED: Signature successfully verified. MongoDB Order ID: 6a3e8bb133f84822d0147159, Razorpay Order ID: order_mock_287320"}
+{"timestamp":"2026-06-26T14:24:49.884Z","level":"INFO","message":"POST /api/v1/payments/verify - Status: 201 (594ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:50.063Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782483890058_invoice_LUN-2026-774614.pdf"}
+{"timestamp":"2026-06-26T14:24:50.067Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_payment_1782483883100@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-774614\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483890058_order-confirmation.html"}
+{"timestamp":"2026-06-26T14:24:50.207Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-774614\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483890197_admin-new-order.html"}
+{"timestamp":"2026-06-26T14:24:50.225Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (328ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:50.273Z","level":"INFO","message":"PAYMENT_INITIATED: Payment order creation initiated. User: 6a3e8bab33f84822d0147135, Coupon: None"}
+{"timestamp":"2026-06-26T14:24:50.396Z","level":"INFO","message":"Generated Mock Razorpay Order ID: order_mock_246981 for amount: ₹2222"}
+{"timestamp":"2026-06-26T14:24:50.400Z","level":"INFO","message":"POST /api/v1/payments/create-order - Status: 200 (171ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:50.415Z","level":"ERROR","message":"PAYMENT_FAILED: Payment verification failed. Razorpay Order ID: order_mock_246981. Error: Cryptographic signature check failed. Payment could not be verified.","metadata":{"message":"Cryptographic signature check failed. Payment could not be verified.","name":"Error","stack":"Error: Cryptographic signature check failed. Payment could not be verified.\n    at PaymentService.verifyPaymentSignature (C:\\Users\\rahul\\lunora\\server\\src\\services\\payment-service.ts:135:13)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\controllers\\payment-controller.ts:46:42)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\utils\\catch-async.ts:8:5)\n    at Layer.handle [as handle_request] (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\middlewares\\validate.ts:33:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","statusCode":400,"status":"fail","isOperational":true}}
+{"timestamp":"2026-06-26T14:24:50.418Z","level":"WARN","message":"POST /api/v1/payments/verify - Status: 400 (14ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:24:50.501Z","level":"WARN","message":"PAYMENT_DUPLICATE_VERIFICATION: Duplicate verification attempt detected. Razorpay Order ID: order_mock_287320"}
+{"timestamp":"2026-06-26T14:24:50.520Z","level":"WARN","message":"POST /api/v1/payments/verify - Status: 400 (80ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:11.629Z","level":"INFO","message":"GET /api/v1/categories - Status: 200 (321ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:11.929Z","level":"INFO","message":"GET /api/v1/categories/tote-bags - Status: 200 (252ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:12.675Z","level":"INFO","message":"GET /api/v1/products - Status: 200 (737ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:13.304Z","level":"INFO","message":"GET /api/v1/products/featured - Status: 200 (625ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:14.362Z","level":"INFO","message":"GET /api/v1/products?category=crossbody-bags - Status: 200 (1036ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:14.788Z","level":"INFO","message":"GET /api/v1/products?search=Pebble - Status: 200 (414ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:15.363Z","level":"INFO","message":"GET /api/v1/products?minPrice=2000&maxPrice=4000 - Status: 200 (568ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:15.734Z","level":"INFO","message":"GET /api/v1/products?sort=price_asc - Status: 200 (359ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:25:15.905Z","level":"INFO","message":"GET /api/v1/products/aria-pebble-leather-tote - Status: 200 (145ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:19.361Z","level":"INFO","message":"Session Action: User registered successfully. Email: upload_admin_1782483977051@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T14:26:19.367Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (824ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:19.447Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: upload_admin_1782483977051@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483979439_welcome.html"}
+{"timestamp":"2026-06-26T14:26:20.326Z","level":"INFO","message":"Session Action: User logged in. Email: upload_admin_1782483977051@lunora.com"}
+{"timestamp":"2026-06-26T14:26:20.330Z","level":"INFO","message":"POST /api/v1/auth/login - Status: 200 (858ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:21.792Z","level":"INFO","message":"Session Action: User registered successfully. Email: upload_user_1782483977051@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T14:26:21.811Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1454ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:21.892Z","level":"WARN","message":"POST /api/v1/uploads/images - Status: 403 (7ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:21.959Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: upload_user_1782483977051@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782483981896_welcome.html"}
+{"timestamp":"2026-06-26T14:26:22.150Z","level":"INFO","message":"Upload Service (Mock Mode): Uploaded buffer to mock folder \"products\" with ID: mock_cl_img_660041"}
+{"timestamp":"2026-06-26T14:26:22.203Z","level":"INFO","message":"Upload Service (Mock Mode): Uploaded buffer to mock folder \"products\" with ID: mock_cl_img_122416"}
+{"timestamp":"2026-06-26T14:26:22.257Z","level":"INFO","message":"POST /api/v1/uploads/images - Status: 200 (238ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:22.598Z","level":"INFO","message":"POST /api/v1/products - Status: 201 (313ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:22.740Z","level":"INFO","message":"Upload Service (Mock Mode): Uploaded buffer to mock folder \"products\" with ID: mock_cl_img_609833"}
+{"timestamp":"2026-06-26T14:26:22.827Z","level":"INFO","message":"POST /api/v1/uploads/products/6a3e8c0e33f84822d0147195 - Status: 200 (150ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:22.991Z","level":"INFO","message":"PATCH /api/v1/uploads/products/6a3e8c0e33f84822d0147195/reorder - Status: 200 (158ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:23.144Z","level":"INFO","message":"PATCH /api/v1/uploads/products/6a3e8c0e33f84822d0147195/primary - Status: 200 (144ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:23.222Z","level":"INFO","message":"Upload Service (Mock Mode): Deleted asset with public ID: mock_cl_img_609833"}
+{"timestamp":"2026-06-26T14:26:23.302Z","level":"INFO","message":"DELETE /api/v1/uploads/products/6a3e8c0e33f84822d0147195/images/mock_cl_img_609833 - Status: 200 (149ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:23.375Z","level":"INFO","message":"Upload Service (Mock Mode): Deleted asset with public ID: mock_cl_img_122416"}
+{"timestamp":"2026-06-26T14:26:23.378Z","level":"INFO","message":"Upload Service (Mock Mode): Deleted asset with public ID: mock_cl_img_660041"}
+{"timestamp":"2026-06-26T14:26:23.469Z","level":"INFO","message":"DELETE /api/v1/products/6a3e8c0e33f84822d0147195 - Status: 200 (154ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T14:26:44.318Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T14:26:44.743Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T14:26:45.918Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484005916_welcome.html"}
+{"timestamp":"2026-06-26T14:26:46.122Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Password Reset Request\n  Template: forgot-password\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484006120_forgot-password.html"}
+{"timestamp":"2026-06-26T14:26:46.279Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Password Updated Successfully\n  Template: password-reset-success\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484006276_password-reset-success.html"}
+{"timestamp":"2026-06-26T14:26:46.689Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782484006682_invoice_LUN-2026-99999.pdf"}
+{"timestamp":"2026-06-26T14:26:46.691Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-99999\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484006682_order-confirmation.html"}
+{"timestamp":"2026-06-26T14:26:46.838Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Order Cancellation - LUN-2026-99999\n  Template: order-cancelled\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484006835_order-cancelled.html"}
+{"timestamp":"2026-06-26T14:26:46.988Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Shipment Update - LUN-2026-99999\n  Template: shipping-update\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484006986_shipping-update.html"}
+{"timestamp":"2026-06-26T14:26:47.232Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782484007210_invoice_LUN-2026-99999.pdf"}
+{"timestamp":"2026-06-26T14:26:47.234Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Shipment Delivered - LUN-2026-99999\n  Template: delivery\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484007210_delivery.html"}
+{"timestamp":"2026-06-26T14:26:47.356Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Contact Inquiry] Partnership Inquiry\n  Template: contact\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484007353_contact.html"}
+{"timestamp":"2026-06-26T14:26:47.478Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-99999\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782484007475_admin-new-order.html"}
+{"timestamp":"2026-06-26T14:38:45.761Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-26T15:11:48.778Z","level":"WARN","message":"POST /api/v1/auth/register - Status: 400 (159ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:11:48.843Z","level":"WARN","message":"POST /api/v1/auth/login - Status: 400 (11ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:11:48.875Z","level":"WARN","message":"POST /api/v1/auth/forgot-password - Status: 400 (5ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:02.829Z","level":"INFO","message":"GET /api/v1/categories - Status: 200 (255ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:03.330Z","level":"INFO","message":"GET /api/v1/categories/tote-bags - Status: 200 (414ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:04.242Z","level":"INFO","message":"GET /api/v1/products - Status: 200 (863ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:04.733Z","level":"INFO","message":"GET /api/v1/products/featured - Status: 200 (483ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:05.787Z","level":"INFO","message":"GET /api/v1/products?category=crossbody-bags - Status: 200 (1029ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:06.141Z","level":"INFO","message":"GET /api/v1/products?search=Pebble - Status: 200 (344ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:06.550Z","level":"INFO","message":"GET /api/v1/products?minPrice=2000&maxPrice=4000 - Status: 200 (389ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:06.688Z","level":"INFO","message":"GET /api/v1/products?sort=price_asc - Status: 200 (114ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:06.829Z","level":"INFO","message":"GET /api/v1/products/aria-pebble-leather-tote - Status: 200 (115ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:28.658Z","level":"INFO","message":"Session Action: User registered successfully. Email: shopper_1782486747109@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T15:12:28.707Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1371ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:29.041Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782486747109@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486749036_welcome.html"}
+{"timestamp":"2026-06-26T15:12:29.492Z","level":"INFO","message":"GET /api/v1/products?limit=2 - Status: 200 (762ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:30.941Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (1412ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:32.211Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (1268ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:32.568Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (330ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:32.877Z","level":"INFO","message":"PATCH /api/v1/cart/6a3e8afc7a47ceb5b00b46e4 - Status: 200 (297ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:33.122Z","level":"INFO","message":"DELETE /api/v1/cart/6a3e8afc7a47ceb5b00b46e2 - Status: 200 (238ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:33.261Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (127ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:33.642Z","level":"INFO","message":"POST /api/v1/wishlist - Status: 200 (371ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:33.784Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (126ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:34.397Z","level":"INFO","message":"POST /api/v1/wishlist/6a3e8afc7a47ceb5b00b46e2/move-to-cart - Status: 200 (595ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:34.465Z","level":"INFO","message":"GET /api/v1/wishlist - Status: 200 (60ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:34.856Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (378ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:36.303Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (1442ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:36.575Z","level":"INFO","message":"GET /api/v1/cart - Status: 200 (266ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:36.724Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782486756713_invoice_LUN-2026-447511.pdf"}
+{"timestamp":"2026-06-26T15:12:36.731Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782486747109@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-447511\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486756713_order-confirmation.html"}
+{"timestamp":"2026-06-26T15:12:36.793Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e4 - Status: 200 (123ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:36.869Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-447511\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486756862_admin-new-order.html"}
+{"timestamp":"2026-06-26T15:12:36.917Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e2 - Status: 200 (112ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:36.996Z","level":"INFO","message":"GET /api/v1/orders - Status: 200 (56ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:37.113Z","level":"INFO","message":"GET /api/v1/orders/6a3e96e333f84822d0147250 - Status: 200 (103ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:37.520Z","level":"INFO","message":"PATCH /api/v1/orders/6a3e96e333f84822d0147250/cancel - Status: 200 (402ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:37.649Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e4 - Status: 200 (115ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:12:37.668Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_1782486747109@lunora.com\n  Subject: LUNORA Order Cancellation - LUN-2026-447511\n  Template: order-cancelled\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486757653_order-cancelled.html"}
+{"timestamp":"2026-06-26T15:12:37.871Z","level":"INFO","message":"GET /api/v1/products/id/6a3e8afc7a47ceb5b00b46e2 - Status: 200 (119ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:09.498Z","level":"INFO","message":"Session Action: User registered successfully. Email: csrf_tester_1782486785357@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T15:13:09.594Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (2420ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:09.927Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: csrf_tester_1782486785357@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486789900_welcome.html"}
+{"timestamp":"2026-06-26T15:13:10.293Z","level":"INFO","message":"GET /api/v1/products?limit=1 - Status: 200 (684ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:11.007Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (707ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:11.033Z","level":"WARN","message":"POST /api/v1/cart - Status: 403 (2ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:11.075Z","level":"WARN","message":"POST /api/v1/cart - Status: 403 (2ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:11.387Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (305ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:34.617Z","level":"INFO","message":"Session Action: User registered successfully. Email: shopper_payment_1782486813262@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T15:13:34.680Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1095ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:34.757Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_payment_1782486813262@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486814742_welcome.html"}
+{"timestamp":"2026-06-26T15:13:34.824Z","level":"INFO","message":"GET /api/v1/products?limit=1 - Status: 200 (98ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:35.132Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (291ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:35.430Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (284ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:35.751Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782486815608_invoice_LUN-2026-785720.pdf"}
+{"timestamp":"2026-06-26T15:13:35.880Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_payment_1782486813262@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-785720\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486815608_order-confirmation.html"}
+{"timestamp":"2026-06-26T15:13:36.023Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (567ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:36.044Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-785720\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486816026_admin-new-order.html"}
+{"timestamp":"2026-06-26T15:13:36.082Z","level":"INFO","message":"PAYMENT_INITIATED: Payment order creation initiated. User: 6a3e971d33f84822d0147289, Coupon: None"}
+{"timestamp":"2026-06-26T15:13:36.247Z","level":"INFO","message":"Generated Mock Razorpay Order ID: order_mock_874948 for amount: ₹2222"}
+{"timestamp":"2026-06-26T15:13:36.323Z","level":"INFO","message":"POST /api/v1/payments/create-order - Status: 200 (201ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:36.691Z","level":"INFO","message":"PAYMENT_VERIFIED: Signature successfully verified. MongoDB Order ID: 6a3e972033f84822d01472ad, Razorpay Order ID: order_mock_874948"}
+{"timestamp":"2026-06-26T15:13:36.727Z","level":"INFO","message":"POST /api/v1/payments/verify - Status: 201 (367ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:37.049Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782486816984_invoice_LUN-2026-712494.pdf"}
+{"timestamp":"2026-06-26T15:13:37.107Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: shopper_payment_1782486813262@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-712494\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486816984_order-confirmation.html"}
+{"timestamp":"2026-06-26T15:13:37.531Z","level":"INFO","message":"POST /api/v1/cart - Status: 200 (792ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:37.539Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-712494\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486817534_admin-new-order.html"}
+{"timestamp":"2026-06-26T15:13:37.560Z","level":"INFO","message":"PAYMENT_INITIATED: Payment order creation initiated. User: 6a3e971d33f84822d0147289, Coupon: None"}
+{"timestamp":"2026-06-26T15:13:37.746Z","level":"INFO","message":"Generated Mock Razorpay Order ID: order_mock_715511 for amount: ₹2222"}
+{"timestamp":"2026-06-26T15:13:37.766Z","level":"INFO","message":"POST /api/v1/payments/create-order - Status: 200 (204ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:37.775Z","level":"ERROR","message":"PAYMENT_FAILED: Payment verification failed. Razorpay Order ID: order_mock_715511. Error: Cryptographic signature check failed. Payment could not be verified.","metadata":{"message":"Cryptographic signature check failed. Payment could not be verified.","name":"Error","stack":"Error: Cryptographic signature check failed. Payment could not be verified.\n    at PaymentService.verifyPaymentSignature (C:\\Users\\rahul\\lunora\\server\\src\\services\\payment-service.ts:135:13)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\controllers\\payment-controller.ts:46:42)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\utils\\catch-async.ts:8:5)\n    at Layer.handle [as handle_request] (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\rahul\\lunora\\server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at <anonymous> (C:\\Users\\rahul\\lunora\\server\\src\\middlewares\\validate.ts:33:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)","statusCode":400,"status":"fail","isOperational":true}}
+{"timestamp":"2026-06-26T15:13:37.794Z","level":"WARN","message":"POST /api/v1/payments/verify - Status: 400 (7ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:13:37.894Z","level":"WARN","message":"PAYMENT_DUPLICATE_VERIFICATION: Duplicate verification attempt detected. Razorpay Order ID: order_mock_874948"}
+{"timestamp":"2026-06-26T15:13:37.931Z","level":"WARN","message":"POST /api/v1/payments/verify - Status: 400 (99ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:16:11.269Z","level":"INFO","message":"Session Action: User registered successfully. Email: concur_user1_1782486970415@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T15:16:11.302Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (757ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:16:11.442Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: concur_user1_1782486970415@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486971388_welcome.html"}
+{"timestamp":"2026-06-26T15:16:12.440Z","level":"INFO","message":"Session Action: User registered successfully. Email: concur_user2_1782486970415@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T15:16:12.475Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1138ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:16:12.547Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: concur_user2_1782486970415@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486972532_welcome.html"}
+{"timestamp":"2026-06-26T15:16:13.069Z","level":"INFO","message":"POST /api/v1/orders - Status: 201 (293ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:16:13.277Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782486973256_invoice_LUN-2026-535961.pdf"}
+{"timestamp":"2026-06-26T15:16:13.280Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: concur_user2_1782486970415@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-535961\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486973256_order-confirmation.html"}
+{"timestamp":"2026-06-26T15:16:13.541Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-535961\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782486973525_admin-new-order.html"}
+{"timestamp":"2026-06-26T15:16:13.906Z","level":"WARN","message":"POST /api/v1/orders - Status: 400 (1136ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:27.477Z","level":"INFO","message":"Session Action: User registered successfully. Email: upload_admin_1782487045320@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T15:17:27.506Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (912ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:27.581Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: upload_admin_1782487045320@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487047568_welcome.html"}
+{"timestamp":"2026-06-26T15:17:28.555Z","level":"INFO","message":"Session Action: User logged in. Email: upload_admin_1782487045320@lunora.com"}
+{"timestamp":"2026-06-26T15:17:28.563Z","level":"INFO","message":"POST /api/v1/auth/login - Status: 200 (972ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:29.812Z","level":"INFO","message":"Session Action: User registered successfully. Email: upload_user_1782487045320@lunora.com, Role: user"}
+{"timestamp":"2026-06-26T15:17:29.821Z","level":"INFO","message":"POST /api/v1/auth/register - Status: 201 (1242ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:29.851Z","level":"WARN","message":"POST /api/v1/uploads/images - Status: 403 (4ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:29.861Z","level":"INFO","message":"Upload Service (Mock Mode): Uploaded buffer to mock folder \"products\" with ID: mock_cl_img_872168"}
+{"timestamp":"2026-06-26T15:17:29.864Z","level":"INFO","message":"Upload Service (Mock Mode): Uploaded buffer to mock folder \"products\" with ID: mock_cl_img_589663"}
+{"timestamp":"2026-06-26T15:17:29.892Z","level":"INFO","message":"POST /api/v1/uploads/images - Status: 200 (13ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:29.914Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: upload_user_1782487045320@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487049906_welcome.html"}
+{"timestamp":"2026-06-26T15:17:30.739Z","level":"INFO","message":"POST /api/v1/products - Status: 201 (839ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:31.329Z","level":"INFO","message":"Upload Service (Mock Mode): Uploaded buffer to mock folder \"products\" with ID: mock_cl_img_687588"}
+{"timestamp":"2026-06-26T15:17:31.405Z","level":"INFO","message":"POST /api/v1/uploads/products/6a3e980a33f84822d01472f9 - Status: 200 (378ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:31.920Z","level":"INFO","message":"PATCH /api/v1/uploads/products/6a3e980a33f84822d01472f9/reorder - Status: 200 (501ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:32.478Z","level":"INFO","message":"PATCH /api/v1/uploads/products/6a3e980a33f84822d01472f9/primary - Status: 200 (525ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:32.571Z","level":"INFO","message":"Upload Service (Mock Mode): Deleted asset with public ID: mock_cl_img_687588"}
+{"timestamp":"2026-06-26T15:17:32.681Z","level":"INFO","message":"DELETE /api/v1/uploads/products/6a3e980a33f84822d01472f9/images/mock_cl_img_687588 - Status: 200 (191ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:17:33.068Z","level":"INFO","message":"Upload Service (Mock Mode): Deleted asset with public ID: mock_cl_img_589663"}
+{"timestamp":"2026-06-26T15:17:33.102Z","level":"INFO","message":"Upload Service (Mock Mode): Deleted asset with public ID: mock_cl_img_872168"}
+{"timestamp":"2026-06-26T15:17:33.369Z","level":"INFO","message":"DELETE /api/v1/products/6a3e980a33f84822d01472f9 - Status: 200 (676ms) - IP: ::1 - UA: node"}
+{"timestamp":"2026-06-26T15:18:16.733Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-26T15:18:17.353Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-26T15:18:17.847Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: Welcome to LUNORA Premium Atelier\n  Template: welcome\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487097844_welcome.html"}
+{"timestamp":"2026-06-26T15:18:18.167Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Password Reset Request\n  Template: forgot-password\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487098165_forgot-password.html"}
+{"timestamp":"2026-06-26T15:18:18.542Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Password Updated Successfully\n  Template: password-reset-success\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487098536_password-reset-success.html"}
+{"timestamp":"2026-06-26T15:18:19.185Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782487099180_invoice_LUN-2026-99999.pdf"}
+{"timestamp":"2026-06-26T15:18:19.188Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Purchase Confirmation - LUN-2026-99999\n  Template: order-confirmation\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487099180_order-confirmation.html"}
+{"timestamp":"2026-06-26T15:18:19.375Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Order Cancellation - LUN-2026-99999\n  Template: order-cancelled\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487099373_order-cancelled.html"}
+{"timestamp":"2026-06-26T15:18:19.783Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Shipment Update - LUN-2026-99999\n  Template: shipping-update\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487099780_shipping-update.html"}
+{"timestamp":"2026-06-26T15:18:20.022Z","level":"INFO","message":"Email Service (Mock Mode): Saved attachment locally to: C:\\Users\\rahul\\lunora\\scratch\\emails\\invoice_1782487100016_invoice_LUN-2026-99999.pdf"}
+{"timestamp":"2026-06-26T15:18:20.023Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: test_receiver@lunora.com\n  Subject: LUNORA Shipment Delivered - LUN-2026-99999\n  Template: delivery\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487100016_delivery.html"}
+{"timestamp":"2026-06-26T15:18:20.154Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Contact Inquiry] Partnership Inquiry\n  Template: contact\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487100151_contact.html"}
+{"timestamp":"2026-06-26T15:18:20.272Z","level":"INFO","message":"[MOCK EMAIL SENT]\n  To: admin@lunora.com\n  Subject: [Admin Alert] New Order placed: LUN-2026-99999\n  Template: admin-new-order\n  Mock Log File: C:\\Users\\rahul\\lunora\\scratch\\emails\\email_1782487100270_admin-new-order.html"}
+{"timestamp":"2026-06-26T15:53:30.844Z","level":"WARN","message":"Database Connection: Lost/Disconnected."}
+{"timestamp":"2026-06-26T15:53:31.214Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}

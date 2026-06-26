@@ -1,0 +1,62 @@
+openapi: 3.1.0
+info:
+  title: LUNORA Premium E-Commerce API
+  version: 1.0.0
+  description: Enterprise API definitions for storefront and administrator management operations on LUNORA.
+servers:
+  - url: http://localhost:5000/api/v1
+    description: Local Development Staging Server
+paths:
+  /auth/register:
+    post:
+      summary: Register customer user
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [name, email, password]
+              properties:
+                name: { type: string }
+                email: { type: string, format: email }
+                password: { type: string, minLength: 8 }
+      responses:
+        '201':
+          description: User registered successfully
+        '400':
+          description: Input validation failure
+
+  /auth/login:
+    post:
+      summary: Customer login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string }
+      responses:
+        '200':
+          description: Session established successfully
+
+  /products:
+    get:
+      summary: Get filtered products catalog
+      parameters:
+        - name: page
+          in: query
+          schema: { type: integer, default: 1 }
+        - name: limit
+          in: query
+          schema: { type: integer, default: 10 }
+        - name: sort
+          in: query
+          schema: { type: string, enum: [price_asc, price_desc, newest] }
+      responses:
+        '200':
+          description: Paginated products list retrieved
