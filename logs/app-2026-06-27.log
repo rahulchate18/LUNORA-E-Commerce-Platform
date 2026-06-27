@@ -1,0 +1,8 @@
+{"timestamp":"2026-06-27T03:16:39.286Z","level":"INFO","message":"Environment variable configurations successfully validated."}
+{"timestamp":"2026-06-27T03:16:41.204Z","level":"INFO","message":"Email Service: Configured in Mock Simulator Mode. Emails will be logged to console and saved locally."}
+{"timestamp":"2026-06-27T03:16:41.874Z","level":"WARN","message":"RAZORPAY_KEY_ID or RAZORPAY_KEY_SECRET is missing from environment. Payment module operating in test sandbox mode."}
+{"timestamp":"2026-06-27T03:16:44.360Z","level":"WARN","message":"Cloudinary config missing (CLOUDINARY_URL or CLOUDINARY_CLOUD_NAME/KEY/SECRET). File uploads will operate in sandbox fallback simulation."}
+{"timestamp":"2026-06-27T03:16:44.990Z","level":"INFO","message":"Initializing LUNORA backend service..."}
+{"timestamp":"2026-06-27T03:16:45.179Z","level":"INFO","message":"Email Service Queue: Background retry monitor initialized successfully."}
+{"timestamp":"2026-06-27T03:16:45.247Z","level":"INFO","message":"LUNORA Server successfully started on port 5000 in development mode."}
+{"timestamp":"2026-06-27T03:16:46.077Z","level":"INFO","message":"Database Connection: Established successfully to MongoDB."}

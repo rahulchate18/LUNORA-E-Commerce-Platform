@@ -25,11 +25,13 @@ import {
   Menu,
   X,
   ChevronDown,
+  User,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { NavLink } from "@/types";
 import { useCart } from "@/context/cart-context";
 import { useWishlist } from "@/context/wishlist-context";
+import { useAuth } from "@/context/auth-context";
 
 /* ─── Navigation Config ───────────────────────────────────────────────────── */
 const NAV_LINKS: NavLink[] = [
@@ -52,6 +54,7 @@ export function Navbar() {
   const pathname = usePathname();
   const { computed, state } = useCart();
   const { items: wishlistItems } = useWishlist();
+  const { isAuthenticated } = useAuth();
 
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -252,6 +255,18 @@ export function Navbar() {
                 )}
               </Link>
 
+              {/* Account / Dashboard */}
+              <Link
+                href={isAuthenticated ? "/dashboard" : "/login"}
+                aria-label={isAuthenticated ? "User Dashboard" : "Sign In / Register"}
+                className={cn(
+                  "flex size-9 items-center justify-center rounded-md transition-colors duration-200",
+                  "text-[var(--color-neutral-300)] hover:text-[var(--color-accent)] hover:bg-[oklch(100%_0_0_/_0.08)]"
+                )}
+              >
+                <User size={18} strokeWidth={1.75} />
+              </Link>
+
               {/* Mobile menu toggle */}
               <button
                 onClick={() => setIsMobileMenuOpen((prev) => !prev)}
@@ -349,6 +364,18 @@ export function Navbar() {
               {link.label}
             </Link>
           ))}
+
+          <Link
+            href={isAuthenticated ? "/dashboard" : "/login"}
+            className={cn(
+              "flex items-center rounded-lg px-3 py-3 text-sm font-medium transition-colors",
+              pathname === "/login" || pathname.startsWith("/dashboard")
+                ? "text-[var(--color-accent)]"
+                : "text-[var(--color-neutral-400)] hover:text-[var(--color-secondary)]"
+            )}
+          >
+            {isAuthenticated ? "My Account" : "Sign In / Register"}
+          </Link>
         </nav>
       </div>
 
