@@ -50,7 +50,7 @@ async function hmacSHA256(message: string, secret: string): Promise<string> {
 export default function CheckoutPage() {
   const router = useRouter();
   const { state: cartState, computed: cartComputed, clearCart } = useCart();
-  const { user } = useAuth();
+  const { user, addOrder } = useAuth();
   const { toast } = useToast();
 
   const [mounted, setMounted] = useState(false);
@@ -222,27 +222,29 @@ export default function CheckoutPage() {
           date: new Date().toISOString(),
         }));
 
-        try {
-          const savedOrdersStr = localStorage.getItem("lunora_auth_orders");
-          const existingOrders = savedOrdersStr ? JSON.parse(savedOrdersStr) : [];
-          
-          const newOrder = {
-            id: `ord-${Math.floor(10000 + Math.random() * 90000)}`,
-            orderNumber,
-            date: new Date().toISOString(),
-            status: "Pending",
-            items: cartState.items,
-            subtotal: cartComputed.subtotal,
-            discount: cartComputed.discountAmount,
-            deliveryCharge: cartComputed.deliveryCharge,
-            total,
-            shippingAddress: address,
-            paymentMethod: "Cash on Delivery",
-          };
-          
-          existingOrders.unshift(newOrder);
-          localStorage.setItem("lunora_auth_orders", JSON.stringify(existingOrders));
-        } catch (_) {}
+        const newOrder = {
+          id: `ord-${Math.floor(10000 + Math.random() * 90000)}`,
+          orderNumber,
+          date: new Date().toISOString(),
+          status: "Pending" as const,
+          items: cartState.items.map((item) => ({
+            product: item.product,
+            quantity: item.quantity,
+            price: item.product.price,
+            selectedColor: item.selectedColor,
+          })),
+          subtotal: cartComputed.subtotal,
+          discount: cartComputed.discountAmount,
+          deliveryCharge: cartComputed.deliveryCharge,
+          total,
+          shippingAddress: {
+            ...address,
+            id: `addr-${Math.floor(10000 + Math.random() * 90000)}`,
+            isDefault: false,
+          },
+          paymentMethod: "Cash on Delivery",
+        };
+        addOrder(newOrder);
 
         clearCart();
         toast.success("COD order placed successfully (Mock Mode)!");
@@ -496,27 +498,29 @@ export default function CheckoutPage() {
           date: new Date().toISOString(),
         }));
 
-        try {
-          const savedOrdersStr = localStorage.getItem("lunora_auth_orders");
-          const existingOrders = savedOrdersStr ? JSON.parse(savedOrdersStr) : [];
-          
-          const newOrder = {
-            id: `ord-${Math.floor(10000 + Math.random() * 90000)}`,
-            orderNumber,
-            date: new Date().toISOString(),
-            status: "Processing",
-            items: cartState.items,
-            subtotal: cartComputed.subtotal,
-            discount: cartComputed.discountAmount,
-            deliveryCharge: cartComputed.deliveryCharge,
-            total,
-            shippingAddress: address,
-            paymentMethod: "Razorpay Online (Sandbox Mock)",
-          };
-          
-          existingOrders.unshift(newOrder);
-          localStorage.setItem("lunora_auth_orders", JSON.stringify(existingOrders));
-        } catch (_) {}
+        const newOrder = {
+          id: `ord-${Math.floor(10000 + Math.random() * 90000)}`,
+          orderNumber,
+          date: new Date().toISOString(),
+          status: "Processing" as const,
+          items: cartState.items.map((item) => ({
+            product: item.product,
+            quantity: item.quantity,
+            price: item.product.price,
+            selectedColor: item.selectedColor,
+          })),
+          subtotal: cartComputed.subtotal,
+          discount: cartComputed.discountAmount,
+          deliveryCharge: cartComputed.deliveryCharge,
+          total,
+          shippingAddress: {
+            ...address,
+            id: `addr-${Math.floor(10000 + Math.random() * 90000)}`,
+            isDefault: false,
+          },
+          paymentMethod: "Razorpay Online (Sandbox Mock)",
+        };
+        addOrder(newOrder);
 
         clearCart();
         toast.success("Payment verified successfully (Mock Mode)!");

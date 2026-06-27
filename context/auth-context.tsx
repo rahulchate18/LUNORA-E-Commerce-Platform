@@ -33,6 +33,7 @@ interface AuthContextValue {
   deleteAddress: (id: string) => Promise<{ success: boolean; message: string }>;
   setDefaultAddress: (id: string) => Promise<{ success: boolean; message: string }>;
   getOrderById: (id: string) => Order | undefined;
+  addOrder: (order: Order) => void;
 }
 
 const AuthContext = createContext<AuthContextValue | null>(null);
@@ -344,6 +345,15 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     [orders]
   );
 
+  const addOrder = useCallback((newOrder: Order) => {
+    setOrders((prev) => {
+      const currentOrders = prev.length > 0 ? prev : MOCK_ORDERS();
+      const updated = [newOrder, ...currentOrders];
+      localStorage.setItem(STORAGE_KEYS.ORDERS, JSON.stringify(updated));
+      return updated;
+    });
+  }, []);
+
   const isAuthenticated = user !== null;
 
   return (
@@ -363,6 +373,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
         deleteAddress,
         setDefaultAddress,
         getOrderById,
+        addOrder,
       }}
     >
       {children}
