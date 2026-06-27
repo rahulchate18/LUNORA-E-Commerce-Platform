@@ -7,7 +7,8 @@
 "use client";
 
 import { useState } from "react";
-import { Star, Heart, ShoppingBag, Plus, Minus, Check, AlertTriangle } from "lucide-react";
+import { useRouter } from "next/navigation";
+import { Star, Heart, ShoppingBag, Plus, Minus, Check, AlertTriangle, CreditCard } from "lucide-react";
 import type { Product, ProductColor } from "@/types";
 import { useCart } from "@/context/cart-context";
 import { useWishlist } from "@/context/wishlist-context";
@@ -19,6 +20,7 @@ interface ProductInfoProps {
 }
 
 export function ProductInfo({ product }: ProductInfoProps) {
+  const router = useRouter();
   const { addToCart } = useCart();
   const { isWishlisted, addToWishlist, removeFromWishlist } = useWishlist();
 
@@ -41,6 +43,11 @@ export function ProductInfo({ product }: ProductInfoProps) {
   const handleAddToCart = () => {
     addToCart(product, quantity, selectedColor);
     // Optionally trigger feedback/reset quantity
+  };
+
+  const handleBuyNow = () => {
+    addToCart(product, quantity, selectedColor);
+    router.push("/checkout");
   };
 
   const incrementQty = () => {
@@ -204,10 +211,19 @@ export function ProductInfo({ product }: ProductInfoProps) {
           {/* Add to Cart button */}
           <button
             onClick={handleAddToCart}
-            className="flex-1 flex h-11 items-center justify-center gap-2 rounded-lg bg-neutral-950 px-6 font-semibold text-white shadow-sm transition-colors hover:bg-neutral-800 active:scale-98 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100"
+            className="flex-1 flex h-11 items-center justify-center gap-2 rounded-lg border border-neutral-200 bg-white px-4 font-semibold text-neutral-900 shadow-sm transition-colors hover:bg-neutral-50 dark:border-neutral-850 dark:bg-neutral-900 dark:text-neutral-300 dark:hover:bg-neutral-800"
           >
             <ShoppingBag className="h-4.5 w-4.5" />
             Add to Cart
+          </button>
+
+          {/* Buy Now button */}
+          <button
+            onClick={handleBuyNow}
+            className="flex-1 flex h-11 items-center justify-center gap-2 rounded-lg bg-neutral-950 px-4 font-semibold text-white shadow-sm transition-colors hover:bg-neutral-800 active:scale-98 dark:bg-white dark:text-neutral-900 dark:hover:bg-neutral-100"
+          >
+            <CreditCard className="h-4.5 w-4.5" />
+            Buy Now
           </button>
 
           {/* Wishlist Button */}

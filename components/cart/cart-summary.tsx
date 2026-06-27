@@ -6,11 +6,13 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { useCart } from "@/context/cart-context";
 import { formatPrice } from "@/lib/mock-data";
 import { Percent, Ticket, Trash2, ArrowRight, Check } from "lucide-react";
 
 export function CartSummary() {
+  const router = useRouter();
   const { computed, state, applyCoupon, removeCoupon, clearCart } = useCart();
   const [couponCode, setCouponCode] = useState("");
   const [feedback, setFeedback] = useState<{ success: boolean; message: string } | null>(null);
@@ -33,12 +35,7 @@ export function CartSummary() {
   };
 
   const handleCheckout = () => {
-    // Mock checkout flow
-    setCheckoutComplete(true);
-    setTimeout(() => {
-      clearCart();
-      setCheckoutComplete(false);
-    }, 3000);
+    router.push("/checkout");
   };
 
   if (checkoutComplete) {
