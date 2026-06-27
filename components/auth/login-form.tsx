@@ -48,7 +48,7 @@ export function LoginForm() {
       if (res.success) {
         setFormSuccess(true);
         setTimeout(() => {
-          router.push("/dashboard");
+          router.push("/");
         }, 1000);
       } else {
         setFormError(res.message);
@@ -72,7 +72,7 @@ export function LoginForm() {
       {formSuccess && (
         <div className="flex items-center gap-2 rounded-lg bg-emerald-50 p-3.5 text-xs font-medium text-emerald-800 dark:bg-emerald-950/20 dark:text-emerald-400">
           <Check className="h-4.5 w-4.5 flex-shrink-0" />
-          <span>Sign in successful! Directing to dashboard...</span>
+          <span>Sign in successful! Sending you to the store...</span>
         </div>
       )}
 
