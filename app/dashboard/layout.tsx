@@ -20,6 +20,7 @@ import {
   LogOut,
   ChevronRight,
   LayoutDashboard,
+  ArrowLeft,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -128,6 +129,14 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                 </Link>
               );
             })}
+            <Link
+              href="/shop"
+              className="flex flex-shrink-0 items-center gap-1.5 rounded-full bg-stone-100 px-4 py-2 text-xs font-semibold text-stone-600 hover:bg-stone-200 focus:outline-hidden dark:bg-neutral-800 dark:text-neutral-300 dark:hover:bg-neutral-700"
+            >
+              <ArrowLeft className="h-3.5 w-3.5" />
+              <span>Back to Shop</span>
+            </Link>
+
             <button
               onClick={handleLogout}
               className="flex flex-shrink-0 items-center gap-1.5 rounded-full bg-red-50 px-4 py-2 text-xs font-semibold text-red-600 hover:bg-red-100 focus:outline-hidden dark:bg-red-950/20 dark:text-red-400 dark:hover:bg-red-950/40"
@@ -165,6 +174,14 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                 </Link>
               );
             })}
+            <Link
+              href="/shop"
+              className="flex w-full items-center gap-3 rounded-lg px-4 py-3 text-sm font-semibold text-stone-600 hover:bg-stone-50 hover:text-stone-900 transition-all dark:text-neutral-400 dark:hover:bg-neutral-800 dark:hover:text-white"
+            >
+              <ArrowLeft className="h-4.5 w-4.5" />
+              <span>Back to Shop</span>
+            </Link>
+
             <button
               onClick={handleLogout}
               className="flex w-full items-center gap-3 rounded-lg px-4 py-3 text-sm font-semibold text-red-600 hover:bg-red-50 transition-all dark:text-red-400 dark:hover:bg-red-950/20"
