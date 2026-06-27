@@ -330,7 +330,18 @@ export default function CheckoutPage() {
         },
       };
 
-      await new Promise((resolve) => setTimeout(resolve, 500));
+      if (!(window as any).Razorpay) {
+        const loaded = await new Promise<boolean>((resolve) => {
+          const script = document.createElement("script");
+          script.src = "https://checkout.razorpay.com/v1/checkout.js";
+          script.onload = () => resolve(true);
+          script.onerror = () => resolve(false);
+          document.body.appendChild(script);
+        });
+        if (!loaded || !(window as any).Razorpay) {
+          throw new Error("Razorpay SDK script blocked or network failure.");
+        }
+      }
       const rzp1 = new (window as any).Razorpay(options);
       
       rzp1.on("payment.failed", function (response: any) {
